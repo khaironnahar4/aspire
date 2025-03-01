@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- tailwind CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- font awosome icons -->
+    <script src="https://kit.fontawesome.com/daa9f7adbb.js" crossorigin="anonymous"></script>
+
+    <title>Aspire Internship Program</title>
+  </head>
+  <body class="max-w-7xl mx-auto px-4">
+    <!-- Navbar Section -->
+    <nav class="bg-white">
+      <div class="max-w-7xl mx-auto px-4">
+        <!-- top Section -->
+        <div class="flex items-center justify-end space-x-4 pt-4">
+          <a href="#" class="hidden md:block text-gray-700 hover:text-[#39104B]"
+            >My Dashboard</a
+          >
+          <a href="#" class="hidden md:block text-gray-700 hover:text-[#39104B]"
+            >Support Us</a
+          >
+          <a href="#" class="hidden md:block text-gray-700 hover:text-[#39104B]"
+            >Search</a
+          >
+          <!-- <a href="#" class="bg-purple-700 text-white px-4 py-2 rounded-lg hover:bg-[#39104B]">Apply Now</a> -->
+        </div>
+        <div class="flex justify-between items-center gap-6 lg:gap-12">
+          <!-- Brand Logo -->
+          <div class="flex items-center">
+            <img
+              src="Assets/logo.png"
+              alt="Logo"
+              class="w-[70px] md:w-[118px]"
+            />
+          </div>
+          <!-- Navbar Links for desktop -->
+          <div
+            class="hidden md:flex items-center justify-between space-x-6 text-gray-700 font-medium absolute md:relative bg-white w-full"
+          >
+            <a href="#" class="text-gray-800 hover:text-[#39104B]">About</a>
+            <a href="#" class="text-gray-800 hover:text-[#39104B]"
+              >Our Program</a
+            >
+            <a href="#" class="text-gray-800 hover:text-[#39104B]"
+              >Collaborators</a
+            >
+            <a href="#" class="text-gray-800 hover:text-[#39104B]">Blog</a>
+            <a href="#" class="text-gray-800 hover:text-[#39104B]">Stories</a>
+            <a href="#" class="text-gray-800 hover:text-[#39104B]">Contact</a>
+            <a
+              href="#"
+              class="bg-[#39104B] text-white px-4 py-2 rounded hover:bg-blue-600"
+              >Apply Now</a
+            >
+          </div>
+          <!-- Mobile Menu Button -->
+          <div id="menu-toggle" class="md:hidden">
+            <button class="text-gray-800 focus:outline-none">
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- Navbar Links for mobile -->
+        <div
+          id="menu"
+          class="flex flex-col hidden md:hidden items-center left-0 right-0 text-gray-700 font-medium bg-white w-screen h-screen mt-0 p-6 absolute z-50 duration-3000 ease-in-out"
+        >
+          <a href="#" class="mt-1 py-1 text-gray-800 hover:text-[#39104B]"
+            >About</a
+          >
+          <a href="#" class="mt-1 py-1 text-gray-800 hover:text-[#39104B]"
+            >Our Program</a
+          >
+          <a href="#" class="mt-1 py-1 text-gray-800 hover:text-[#39104B]"
+            >Collaborators</a
+          >
+          <a href="#" class="mt-1 py-1 text-gray-800 hover:text-[#39104B]"
+            >Blog</a
+          >
+          <a href="#" class="mt-1 py-1 text-gray-800 hover:text-[#39104B]"
+            >Stories</a
+          >
+          <a href="#" class="mt-1 py-1 text-gray-800 hover:text-[#39104B]"
+            >Contact</a
+          >
+          <a
+            href="#"
+            class="mt-1 py-1 bg-[#39104B] text-white px-4 py-2 rounded hover:bg-[#39104B]"
+            >Apply Now</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section start-->
+    <section
+      class="bg-cover bg-center h-screen flex items-center relative"
+      style="background-image: url('Assets/banner.png')"
+    >
+      <!-- Black overlay -->
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <!-- Hero content -->
+      <div
+        class="z-10 container mx-auto px-6 text-white text-center md:text-start"
+      >
+        <h1 class="text-3xl md:text-5xl font-bold mb-4">
+          Bridge The Gap For <br />Learning & Industry
+        </h1>
+      </div>
+    </section>
+    <!-- Hero Section end-->
+
+    <!-- overview section start -->
+    <section class="my-[56px] md:my-[120px] sm:my-[80px]">
+      <!-- Program Overview Section -->
+      <div
+        class="mb-8 flex flex-col md:flex-row items-start justify-between gap-12"
+      >
+        <div class="text-center md:text-left w-full md:w-2/5">
+          <h2 class="text-3xl font-bold text-[#39104B]">Program Overview</h2>
+          <p class="text-gray-700 mt-4">
+            The Aspire Internship Program is a professional development
+            initiative designed to provide students and young professionals with
+            hands-on experience in their chosen fields. This program typically
+            focuses on skill-building, mentorship, and real-world exposure to
+            industry practices.
+          </p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="mt-6 md:mt-0 md:w-3/5 w-full">
+          <img
+            src="Assets/overview.png"
+            alt="Program Overview Image"
+            class="w-full object-fit border-design"
+          />
+        </div>
+      </div>
+
+      <!-- Features Section -->
+      <div class="grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 gap-6">
+        <!-- Feature Card -->
+        <div
+          class="bg-[#39104B] text-white p-6 border-design-card text-center shadow-lg flex flex-col items-center"
+        >
+          <div class="text-4xl w-14 h-14 rounded-full bg-white text-[#39104B] flex items-center justify-center"><i class="fa-solid fa-calendar"></i></div>
+          <h3 class="text-lg font-semibold mt-2">3 Month Duration</h3>
+        </div>
+
+        <div
+          class="bg-[#39104B] text-white p-6 border-design-card text-center shadow-lg flex flex-col items-center"
+        >
+          <div class="text-4xl w-14 h-14 rounded-full bg-white text-[#39104B] flex items-center justify-center"><i class="fa-regular fa-window-restore"></i></div>
+          <h3 class="text-lg font-semibold mt-2">Multiple Roles</h3>
+        </div>
+
+        <div
+          class="bg-[#39104B] text-white p-6 border-design-card text-center shadow-lg flex flex-col items-center"
+        >
+          <div class="text-4xl w-14 h-14 rounded-full bg-white text-[#39104B] flex items-center justify-center"><i class="fa-solid fa-users"></i></div>
+          <h3 class="text-lg font-semibold mt-2">Mentorship</h3>
+        </div>
+
+        <div
+          class="bg-[#39104B] text-white p-6 border-design-card text-center shadow-lg flex flex-col items-center"
+        >
+          <div class="text-4xl w-14 h-14 rounded-full bg-white text-[#39104B] flex items-center justify-center"><i class="fa-regular fa-address-card"></i></div>
+          <h3 class="text-lg font-semibold mt-2">Certification</h3>
+        </div>
+      </div>
+    </section>
+    <!-- overview section end -->
+
+    <!-- benefits section start -->
+    <section class="my-[56px] md:my-[120px] sm:my-[80px]">
+      <div class="grid md:grid-cols-2 gap-10 items-start">
+        <!-- Left Image -->
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold text-[#39104B] mb-6">
+            Benefits From Our Aspire Internship Program
+          </h2>
+          <div class="">
+            <img
+              src="Assets/benefits.png"
+              alt="Hands typing on laptop"
+              class="shadow-lg w-full overflow-hidden border-design"
+            />
+          </div>
+        </div>
+        <!-- Right Content -->
+        <div>
+          <div class="space-y-6">
+            <!-- Benefit Item -->
+            <div class="flex items-start space-x-4">
+              <div
+                class="w-12 h-12 bg-gray-100 flex items-center justify-center rounded-full"
+              >
+                <span class="text-xl">⚙️</span>
+              </div>
+              <div>
+                <h3 class="font-bold text-lg text-[#39104B]">
+                  Hands-On Learning
+                </h3>
+                <p class="text-gray-700 text-sm">
+                  Interns work on real-world projects that provide practical
+                  exposure to industry challenges.
+                </p>
+              </div>
+            </div>
+            <!-- Benefit Item -->
+            <div class="flex items-start space-x-4">
+              <div
+                class="w-12 h-12 bg-gray-100 flex items-center justify-center rounded-full"
+              >
+                <span class="text-xl">👥</span>
+              </div>
+              <div>
+                <h3 class="font-bold text-lg text-[#39104B]">
+                  Mentorship From Experts
+                </h3>
+                <p class="text-gray-700 text-sm">
+                  Regular feedback and career advice to improve personal and
+                  professional growth.
+                </p>
+              </div>
+            </div>
+            <!-- Benefit Item -->
+            <div class="flex items-start space-x-4">
+              <div
+                class="w-12 h-12 bg-gray-100 flex items-center justify-center rounded-full"
+              >
+                <span class="text-xl">📜</span>
+              </div>
+              <div>
+                <h3 class="font-bold text-lg text-[#39104B]">
+                  Career Acceleration & Certification
+                </h3>
+                <p class="text-gray-700 text-sm">
+                  Internship experience adds credibility to resumes and boosts
+                  employability.
+                </p>
+              </div>
+            </div>
+            <!-- Benefit Item -->
+            <div class="flex items-start space-x-4">
+              <div
+                class="w-12 h-12 bg-gray-100 flex items-center justify-center rounded-full"
+              >
+                <span class="text-xl">🌐</span>
+              </div>
+              <div>
+                <h3 class="font-bold text-lg text-[#39104B]">
+                  Networking & Job Opportunities
+                </h3>
+                <p class="text-gray-700 text-sm">
+                  Build professional relationships that can help with future job
+                  opportunities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- benefits section end -->
+
+    <!-- Testimonial Section start-->
+    <section class="my-[56px] md:my-[120px] sm:my-[80px]">
+      <h2
+        class="text-3xl font-bold text-[#39104B] max-w-2xl mx-auto text-center"
+      >
+        Success Stories & Testimonials
+      </h2>
+      <p class="mt-3 text-gray-600 max-w-2xl mx-auto text-center">
+        The Aspire Internship Program empowers individuals with hands-on
+        experience, mentorship, and skill development for successful careers.
+      </p>
+
+      <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Testimonial Card 1 -->
+        <div class="bg-white shadow-md p-6 border-design border border-black">
+          <div class="flex items-center gap-3">
+            <div>
+              <img
+                src="Assets/person-1.jpg"
+                alt="Aisha"
+                class="w-12 h-12 object-fit object-center rounded-full"
+              />
+            </div>
+            <div>
+              <h3 class="font-semibold">Aisha Rahman</h3>
+              <div class="flex text-yellow-500 my-1">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            </div>
+          </div>
+          <p class="text-gray-600">
+            The Aspire Internship Program gave me international exposure, and I
+            learned how to work in a global team.
+          </p>
+        </div>
+
+        <!-- Testimonial Card 2 -->
+        <div class="bg-white shadow-md p-6 border-design border border-black">
+          <div class="flex items-center gap-3">
+            <img
+              src="Assets/person-2.jpg"
+              alt="Tonmoy"
+              class="w-12 h-12 rounded-full"
+            />
+            <div>
+              <h3 class="font-semibold">Tonmoy</h3>
+              <div class="flex text-yellow-500 my-1">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            </div>
+          </div>
+          <p class="text-gray-600">
+            I never thought I could transition into data analytics without prior
+            experience, but Aspire made it possible.
+          </p>
+        </div>
+
+        <!-- Testimonial Card 3 -->
+        <div class="bg-white shadow-md p-6 border-design border border-black">
+          <div class="flex items-center gap-3">
+            <img
+              src="Assets/person-3.jpg"
+              alt="Priyoshi"
+              class="w-12 h-12 rounded-full"
+            />
+            <div>
+              <h3 class="font-semibold">Priyoshi</h3>
+              <div class="flex text-yellow-500 my-1">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            </div>
+          </div>
+          <p class="text-gray-600">
+            I never thought I could transition into data analytics without prior
+            experience, but Aspire made it possible.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial section end -->
+
+    <!-- Subscription Form start -->
+    <section class="my-[56px] md:my-[120px] sm:my-[80px]">
+      <div class="max-w-lg mx-auto flex flex-col sm:flex-row gap-4">
+        <input
+          type="email"
+          placeholder="Enter Your Email Address"
+          class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#39104B]"
+        />
+        <button
+          class="bg-[#39104B] text-white px-6 py-3 rounded-lg hover:bg-purple-900 transition cursor-pointer"
+        >
+          SUBSCRIBE
+        </button>
+      </div>
+    </section>
+    <!-- Subscription Form end -->
+
+    <!-- Footer -->
+    <footer class="bg-[#39104B] text-white py-10 px-6">
+      <div
+        class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 text-center md:text-left"
+      >
+        <!-- Business Hours -->
+        <div class="text-center">
+          <h3 class="font-bold text-lg">Business Hours</h3>
+          <p class="mt-2">Saturday - Thursday</p>
+          <p class="font-semibold">10am - 5pm</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="text-center">
+          <h3 class="font-bold text-lg">Quicklinks</h3>
+          <ul class="mt-2 space-y-1">
+            <li><a href="#" class="hover:underline">About Us</a></li>
+            <li><a href="#" class="hover:underline">Our Program</a></li>
+            <li><a href="#" class="hover:underline">Supporters</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Us -->
+        <div class="text-center">
+          <h3 class="font-bold text-lg">Contact Us</h3>
+          <ul class="mt-2 space-y-1">
+            <li><a href="#" class="hover:underline">Stories</a></li>
+            <li><a href="#" class="hover:underline">Events</a></li>
+            <li><a href="#" class="hover:underline">Apply</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+        <!-- Social Media Icons -->
+      <div class="flex justify-center space-x-4 mt-6">
+            <a href="#" class="text-white text-2xl hover:text-gray-300"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="text-white text-2xl hover:text-gray-300"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="text-white text-2xl hover:text-gray-300"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" class="text-white text-2xl hover:text-gray-300"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+      <!-- Thin Line Divider -->
+      <div class="border-t border-gray-400 my-4 w-4/5 mx-auto w-full"></div>
+
+      <!-- Copyright Section -->
+      <div class="text-center text-sm">
+        <p>
+          © 2025 Aspire Internship Program.
+          <a href="#" class="underline">Privacy Policy</a> -
+          <a href="#" class="underline">Cookies</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Social Media & Copyright end -->
+
+    <!-- js code -->
+    <script>
+      document
+        .getElementById("menu-toggle")
+        .addEventListener("click", function () {
+          document.getElementById("menu").classList.toggle("hidden");
+        });
+    </script>
+  </body>
+</html>
