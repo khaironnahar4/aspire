@@ -15,4 +15,4 @@ This is a landing page of Aspire Internship Program. The website is developed by
 <img src="Assets/full-website.png" alt="Hero Section" width="100%">
 
 ## Full Website Design (Mobile View)
-<img src="Assets/full-website-mobileview.png" alt="Hero Section" width="100%">
+<img src="Assets/full-website-mobileview.png" alt="Hero Section" width="380px">
